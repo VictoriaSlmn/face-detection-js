@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Tracking Faces in the Browser with TensorFlow.js</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.4.0/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-landmarks-detection@0.0.1/dist/face-landmarks-detection.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/party-js@1.0.0/party.min.js"></script>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div id="status">Loading...</div>
+        <canvas id="output"></canvas>
+        <video id="webcam" playsinline style="
+            visibility: hidden;
+            width: auto;
+            height: auto;
+            ">
+        </video>
+    </body>
+</html>
